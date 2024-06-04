@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e4e9ed;
+  font-family: "Roboto", sans-serif;
+}
+.contenedorCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.cardPersonajes {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+}
