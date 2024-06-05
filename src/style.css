@@ -4,8 +4,36 @@ body {
   background-color: #e4e9ed;
   font-family: "Roboto", sans-serif;
 }
-.contenedorCards {
+#app h1 {
+  text-align: center;
+  padding: 2rem;
+  font-size: 3rem;
+}
+
+#app form {
+  text-align: center;
+  height: 40px;
+  padding-bottom: 2rem;
+}
+#app form input,
+#app form button {
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#app form input {
+  width: 300px;
+  margin-right: 10px;
+}
+#app form button {
+  width: 60px;
+  background-color: green;
+  color: #fff;
+}
+#contenedorCards {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -15,4 +43,17 @@ body {
   padding: 20px;
   margin: 10px;
   width: 300px;
+  height: 500px;
+}
+.divImagen {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.divImagen img {
+  object-fit: contain;
+  max-width: 300px;
+  max-height: 300px;
 }

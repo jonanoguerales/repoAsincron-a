@@ -1,25 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mortadelo y Filemón</title>
-    <link rel="stylesheet" href="./src/style.css" />
-  </head>
-  <body>
-    <div id="app">
-      <h1>Personajes de Mortadelo y Filemón</h1>
-      <form method="post" action="/personas">
-        <label for="nombre"></label>
-        <input type="text" name="nombre" id="nombre" />
-        <button type="submit">Filtrar</button>
-      </form>
 
-      <div id="contenedorCards">
-        <div id="personas" class="cardPersonajes"></div>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mortadelo y Filemón</title>
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body>
+  <div id="app">
+    <h1>Personajes de Mortadelo y Filemón</h1>
+    <form method="post" action="/personas">
+      <label for="nombre"></label>
+      <input type="text" name="nombre" id="nombre" />
+      <button type="submit">Filtrar</button>
+    </form>
+
+    <div id="contenedorCards">
     </div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
